@@ -1,17 +1,17 @@
 {
-  "homepage": "https://nova-motsoar.github.io/paradise-nursery",
+  "homepage": "https://nova-motsoari.github.io/paradise-nursery",
   "name": "paradise-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist" 
+},
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
